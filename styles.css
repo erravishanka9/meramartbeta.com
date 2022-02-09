@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Mountains+of+Christmas&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper .multi_color_border{
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, #37a000 0% , #37a000 25%, #494949 25%, #494949 50%, #37a000 50%, #37a000 75%, #494949 75%, #494949 100%);
+}
+
+.wrapper .top_nav{
+  margin-top: 5px;
+  width: 100%;
+  height: 75px;
+  background: rgb(5, 153, 128);
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .top_nav .left{
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .top_nav .left .logo p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #494949;
+  font-family: "Mountains of Christmas", cursive;
+  margin-right: 25px;
+}
+
+.wrapper .top_nav .left .logo p span{
+  color: #37a000;
+  font-family: "Mountains of Christmas", cursive;
+}
+
+}
+.wrapper .top_nav .left .search_bar input[type="text"]{
+  border: 1px solid #666666;
+  padding: 5px 10px; 
+  outline: none;
+  transition: all 0.5s linear;
+ border-radius: 50PX;
+}
+
+.wrapper .top_nav .left .search_bar input[type="text"]:focus{
+  width: 250px;
+  border-radius: 50PX;
+
+}
+
+.wrapper .top_nav .right ul{
+  display: flex;
+}
+
+.wrapper .top_nav .right ul li{
+  margin: 0 12px;
+}
+.wrapper .top_nav .right ul li:hover:first-child{
+  background: rgb(126, 243, 237);
+  width: 40px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.wrapper .top_nav .right ul li:last-child{
+  margin-right: 0;
+  margin-top: 10px;
+  
+}
+
+.wrapper .top_nav .right ul li:hover:last-child{
+  background: rgb(8, 236, 225);
+  width: 40px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.wrapper .top_nav .right ul li a{
+  display: block;
+  padding: 8px 10px;
+  color: #666666;
+}
+
+.wrapper .top_nav .right ul li:last-child a{
+   color: #fff;
+}
+
+.wrapper .bottom_nav{
+  width: 100%;
+  background: #E0FFFF;
+  height: 40px;
+  padding: 0 50px;
+}
+
+.wrapper .bottom_nav ul{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0px
+}
+
+.wrapper .bottom_nav ul li a{
+  color: #494949;
+  letter-spacing: none;
+  text-transform:none;
+  font-size: 14px;
+
+}
+
+.wrapper .banner img{
+  width: 100%;
+  height: 400px;
+}
+.sr{
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+.btnn{
+  width: 30px;
+  height: 20px;
+  background-color: #E0FFFF;
+  text-decoration-color: black;
+  fl
+}
+.aboutt{
+  
+  background-color: aquamarine;
+  height: 900px;
+  weight:70px
+  
+  
+}
+.aboutt-c{
+  text-decoration: none;
+  margin-left: 20%;
+}
+.abtu{
+  margin-top: 0px;
+  margin-left: 30%;
+}
+.contact-c{
+  text-decoration: none;
+  margin-left: 20%;
+}
